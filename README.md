@@ -20,7 +20,7 @@ A centralized, low-overhead Network Attached Storage (NAS) tier deployed on bare
 The project structure separates core documentation logs from visual assets, and is as follows:
 
 ```text
-├── README.md                     # Project overview, hardware stack, and            │                               navigation guide
+├── README.md                     # Project overview, hardware stack, and       │                                   navigation guide
 ├── attachments/                  # Embedded system diagrams, log snapshots, and │   │                               network maps
 │   └── tailscale-nas-architecture.png
 └── storage-nas/                    # Core documentation directory

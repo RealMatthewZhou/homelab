@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "README"
             }
           }
         ]
@@ -183,22 +183,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "87645bc729a8e194",
+  "active": "f7204380ecfb3664",
   "lastOpenFiles": [
     "storage-nas/OMV-Troubleshooting-Log.md",
+    "storage-nas",
     "mkdocs.yml",
+    "index.md",
+    "attachments/tailscale-nas-architecture.png",
+    "attachments",
+    "mkdocs.yaml.md",
     "untitled folder",
     "mkdocs.yaml",
     "mkdocs.md",
     "storage-nas/OMV-Troubleshooting-Log.md.md",
-    "mkdocs.yaml.md",
-    "index.md",
     "README.md",
-    "attachments/tailscale-nas-architecture.png",
     "Untitled",
     "attachments/UntitledUntitled.md",
-    "attachments",
-    "networking-vpn",
-    "storage-nas"
+    "networking-vpn"
   ]
 }
