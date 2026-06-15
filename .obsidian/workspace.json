@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/storage-nas/OMV-Troubleshooting-Log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "OMV-Troubleshooting-Log"
             }
           }
         ]
@@ -185,6 +185,14 @@
   },
   "active": "f7204380ecfb3664",
   "lastOpenFiles": [
+    "docs/attachments/tailscale-nas.png",
+    "README.md",
+    "docs/README.md",
+    "docs/attachments/tailscale-nas-architecture.png",
+    "docs/attachments",
+    "docs/storage-nas/OMV-Troubleshooting-Log.md",
+    "docs/storage-nas",
+    "docs",
     "storage-nas/OMV-Troubleshooting-Log.md",
     "storage-nas",
     "mkdocs.yml",
@@ -196,7 +204,6 @@
     "mkdocs.yaml",
     "mkdocs.md",
     "storage-nas/OMV-Troubleshooting-Log.md.md",
-    "README.md",
     "Untitled",
     "attachments/UntitledUntitled.md",
     "networking-vpn"

@@ -175,7 +175,7 @@ While the local NetBIOS name resolution successfully tricked the Windows kernel 
 #### Upgrade to Overlay Network Namespace Segmentation (The Final Solution)
 To decouple the storage tier from physical location constraints, the infrastructure was scaled to utilize a virtual Mesh VPN overlay network: **Tailscale**.
 
-![[tailscale-nas-architecture.png]]
+![[tailscale-nas.png]]
 
 By deploying the Tailscale daemon on both the host node and the client, the host was provisioned with a secure, permanent CGNAT IP address and a corresponding MagicDNS namespace identity string (`homelabpi.tailnet-xxxx.ts.net`).
 	
