@@ -15,13 +15,7 @@ A centralized, low-overhead Network Attached Storage (NAS) tier deployed on bare
 
 ---
 
-## 📂 Repository Layout
+## 📂 Repository Layout 
 
-The project structure separates core documentation logs from visual assets, and is as follows:
-
-```text
-├── README.md                     # Project overview, hardware stack, and            │                               navigation guide
-├── attachments/                  # Embedded system diagrams, log snapshots, and │   │                               network maps
-│   └── tailscale-nas-architecture.png
-└── storage-nas/                    # Core documentation directory
-    └── OMV-Troubleshooting-Log.md  # Full architectural spec, incident                                              timeline, and resolutions
+The complete documentation and engineering incident post-mortems are available here: 
+👉 [View the full OMV Troubleshooting Log](./storage-nas/OMV-Troubleshooting-Log.md)

@@ -1,0 +1,25 @@
+name: publish-site
+on:
+  push:
+    branches:
+      - main  # Triggers the build when we push changes to main branch
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+          
+      - name: Install MkDocs Material & Plugins
+        run: pip install mkdocs-material
+        
+      - name: Compile and Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force

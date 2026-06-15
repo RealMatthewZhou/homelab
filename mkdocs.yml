@@ -1,0 +1,30 @@
+site_name: Homelab Documentation Hub
+site_description: Technical specs and incident post-mortems for local infrastructure deployments.
+
+theme:
+  name: material
+  palette:
+    # Toggle light/dark mode based on system settings
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.tabs       # Top horizontal menu bar
+    - content.code.copy     # Copy button on all code blocks
+
+# Mp files directly to the website navigation panel
+nav:
+  - Home: README.md
+  - Storage & NAS:
+    - OMV Troubleshooting Log: storage-nas/OMV-Troubleshooting-Log.md
