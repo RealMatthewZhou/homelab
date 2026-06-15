@@ -1,5 +1,6 @@
 site_name: Homelab Documentation Hub
 site_description: Technical specs and incident post-mortems for local infrastructure deployments.
+docs_dir: .
 
 theme:
   name: material
