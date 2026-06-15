@@ -1,6 +1,5 @@
 site_name: Homelab Documentation Hub
 site_description: Technical specs and incident post-mortems for local infrastructure deployments.
-docs_dir: .
 
 theme:
   name: material
@@ -24,7 +23,7 @@ theme:
     - navigation.tabs       # Top horizontal menu bar
     - content.code.copy     # Copy button on all code blocks
 
-# Mp files directly to the website navigation panel
+# Map files directly to the website navigation panel
 nav:
   - Home: README.md
   - Storage & NAS:
