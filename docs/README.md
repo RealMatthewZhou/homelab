@@ -19,12 +19,11 @@ A centralized, low-overhead Network Attached Storage (NAS) tier deployed on bare
 
 The project structure separates core documentation logs from visual assets, and is as follows:
 
-```text
-mkdocs.yml                          [File] Documentation configuration
+    mkdocs.yml                          [File] Documentation configuration
 
-docs/                               [Folder] Main source directory for website documentation
-    README.md                       [File] Project overview and navigation guide
-    attachments/                    [Folder] Embedded system diagrams and network maps
-        tailscale-nas.png           [File] Visual infrastructure topology blueprint
-    storage-nas/                    [Folder] Core technical documentation logs
-        OMV-Troubleshooting-Log.md  [File] Architectural spec, incident timelines, and fixes
+    docs/                               [Folder] Main source directory
+        README.md                       [File] Project overview
+        attachments/                    [Folder] Embedded system diagrams
+            tailscale-nas.png           [File] Visual infrastructure topology blueprint
+        storage-nas/                    [Folder] Core technical documentation logs
+            OMV-Troubleshooting-Log.md  [File] Architectural spec, incident timelines, and fixes
